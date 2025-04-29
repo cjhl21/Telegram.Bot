@@ -32,11 +32,11 @@ public partial class User
     [JsonPropertyName("is_premium")]
     public bool IsPremium { get; set; }
 
-    /// <summary><em>Optional</em>. <see langword="true"/>, if this user added the bot to the attachment menu</summary>
+    /// <summary><em>Optional</em>. <see langword="true"/>, 如果该用户将机器人添加到附件菜单 if this user added the bot to the attachment menu</summary>
     [JsonPropertyName("added_to_attachment_menu")]
     public bool AddedToAttachmentMenu { get; set; }
 
-    /// <summary><em>Optional</em>. <see langword="true"/>, if the bot can be invited to groups. Returned only in <see cref="TelegramBotClientExtensions.GetMe">GetMe</see>.</summary>
+    /// <summary><em>Optional</em>. <see langword="true"/>, 机器人是否可以被邀请参加小组。 if the bot can be invited to groups. Returned only in <see cref="TelegramBotClientExtensions.GetMe">GetMe</see>.</summary>
     [JsonPropertyName("can_join_groups")]
     public bool CanJoinGroups { get; set; }
 
@@ -48,7 +48,7 @@ public partial class User
     [JsonPropertyName("supports_inline_queries")]
     public bool SupportsInlineQueries { get; set; }
 
-    /// <summary><em>Optional</em>. <see langword="true"/>, if the bot can be connected to a Telegram Business account to receive its messages. Returned only in <see cref="TelegramBotClientExtensions.GetMe">GetMe</see>.</summary>
+    /// <summary><em>Optional</em>. <see langword="true"/>, 如果机器人可以连接到Telegram商业账户来接收它的消息。 if the bot can be connected to a Telegram Business account to receive its messages. Returned only in <see cref="TelegramBotClientExtensions.GetMe">GetMe</see>.</summary>
     [JsonPropertyName("can_connect_to_business")]
     public bool CanConnectToBusiness { get; set; }
 
